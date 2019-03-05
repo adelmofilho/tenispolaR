@@ -1,8 +1,5 @@
 # tenispolaR <img src="man/figures/logo.png" align="right" height=140/>
 
-
----------------
-
 **Author :** [Adelmo Filho](http://adelmofilho.github.io/)<br/>
 **License:** [GPL-3.0](https://opensource.org/licenses/GPL-3.0)
 
