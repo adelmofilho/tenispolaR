@@ -2,7 +2,7 @@
 % Please edit documentation in R/encryption.R
 \name{encryption}
 \alias{encryption}
-\title{TENIS-POLAR encryption}
+\title{ZENIT-POLAR substitution cipher method of encryption}
 \usage{
 encryption(x, key_from = "tenis", key_to = "polar")
 }
@@ -17,7 +17,7 @@ encryption(x, key_from = "tenis", key_to = "polar")
 encrypted message
 }
 \description{
-Returns a message encrypted by TENIS-POLAR key by default or an user defined key.
+Returns a message encrypted by ZENIT-POLAR substitution cipher method of encryption using by default TENIS-POLAR key.
 }
 \details{
 This kind of encryption replace the nth character of 1th key to the nth character of 2nd key and vice versa.
