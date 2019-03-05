@@ -1,2 +1,6 @@
+^appveyor\.yml$
+^codecov\.yml$
+^\.travis\.yml$
+^LICENSE\.md$
 ^tenispolaR\.Rproj$
 ^\.Rproj\.user$
