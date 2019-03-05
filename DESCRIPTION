@@ -2,10 +2,10 @@ Package: tenispolaR
 Title: Provides TENIS-POLAR Encryption
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Adelmo",
+           family = "Filho",
            role = c("aut", "cre"),
-           email = "first.last@example.com")
+           email = "adelmo.aguiar.filho@gmail..com")
 Description: What the package does (one paragraph).
 License: GPL-3
 Encoding: UTF-8
