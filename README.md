@@ -23,7 +23,7 @@ devtools::install_github("adelmofilho/tenispolaR")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows ZENIT-POLAR substitution cipher method of encryption
 
 ``` r
 x <- "orro o um psibinhe tisi er kisir: e ivorre der ceseir, e celpsisae der cisopir!"
