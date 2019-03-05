@@ -1,6 +1,6 @@
-#' TENIS-POLAR encryption
+#' ZENIT-POLAR substitution cipher method of encryption
 #'
-#' Returns a message encrypted by TENIS-POLAR key by default or an user defined key.
+#' Returns a message encrypted by ZENIT-POLAR substitution cipher method of encryption using by default TENIS-POLAR key.
 #'
 #' @details This kind of encryption replace the nth character of 1th key to the nth character of 2nd key and vice versa.
 #'
