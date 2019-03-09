@@ -5,6 +5,8 @@
 [![Travis build status](https://travis-ci.org/adelmofilho/tenispolaR.svg?branch=master)](https://travis-ci.org/adelmofilho/tenispolaR)
 [![Coverage status](https://codecov.io/gh/adelmofilho/tenispolaR/branch/master/graph/badge.svg)](https://codecov.io/github/adelmofilho/tenispolaR?branch=master)
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/adelmofilho/tenispolaR?branch=master&svg=true)](https://ci.appveyor.com/project/adelmofilho/tenispolaR)
+[![DOI](https://zenodo.org/badge/173999877.svg)](https://zenodo.org/badge/latestdoi/173999877)
+
 
 ## Background
 
