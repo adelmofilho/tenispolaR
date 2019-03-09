@@ -31,7 +31,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">tenispolaR</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.4</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.0.9000</span>
       </span>
     </div>
 
@@ -78,16 +78,19 @@
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
-<p>You can install the development version from Github with devtools:</p>
+<p>You can install this package from CRAN:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="https://www.rdocumentation.org/packages/utils/topics/install.packages">install.packages</a></span>(<span class="st">"tenispolaR"</span>)</code></pre></div>
+<p>Or you can install the development version from Github with devtools:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/devtools/topics/reexports">install_github</a></span>(<span class="st">"adelmofilho/tenispolaR"</span>)</code></pre></div>
 </div>
 <div id="example" class="section level2">
 <h2 class="hasAnchor">
 <a href="#example" class="anchor"></a>Example</h2>
-<p>This is a basic example which shows ZENIT-POLAR substitution cipher method of encryption</p>
+<p>This is a basic example which shows ZENIT-POLAR substitution cipher method of encryption.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">x &lt;-<span class="st"> "orro o um psibinhe tisi er kisir: e ivorre der ceseir, e celpsisae der cisopir!"</span>
 
-<span class="kw"><a href="reference/encryption.html">encryption</a></span>(x, <span class="dt">key_from =</span> <span class="st">"polar"</span>, <span class="dt">key_to =</span> <span class="st">"tenis"</span>)</code></pre></div>
+tenispolaR<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/tenispolaR/topics/encryption">encryption</a></span>(x, <span class="dt">key_from =</span> <span class="st">"polar"</span>, <span class="dt">key_to =</span> <span class="st">"tenis"</span>)</code></pre></div>
+<pre><code>## [1] "esse e um trabalho para os karas: o avesso dos coroas, o contrario dos caretas!"</code></pre>
 </div>
 </div>
   </div>
@@ -96,6 +99,8 @@
     <div class="links">
 <h2>Links</h2>
 <ul class="list-unstyled">
+<li>Download from CRAN at <br><a href="https://cloud.r-project.org/package=tenispolaR">https://​cloud.r-project.org/​package=tenispolaR</a>
+</li>
 <li>Browse source code at <br><a href="https://github.com/adelmofilho/tenispolaR">https://​github.com/​adelmofilho/​tenispolaR</a>
 </li>
 <li>Report a bug at <br><a href="https://github.com/adelmofilho/tenispolaR/issues">https://​github.com/​adelmofilho/​tenispolaR/​issues</a>
@@ -119,10 +124,12 @@
   <div class="dev-status">
 <h2>Dev status</h2>
 <ul class="list-unstyled">
+<li><a href="https://cran.r-project.org/package=tenispolaR"><img src="https://www.r-pkg.org/badges/version/tenispolaR" alt="CRAN status"></a></li>
 <li><a href="https://www.tidyverse.org/lifecycle/#stable"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="lifecycle"></a></li>
 <li><a href="https://travis-ci.org/adelmofilho/tenispolaR"><img src="https://travis-ci.org/adelmofilho/tenispolaR.svg?branch=master" alt="Travis build status"></a></li>
 <li><a href="https://codecov.io/github/adelmofilho/tenispolaR?branch=master"><img src="https://codecov.io/gh/adelmofilho/tenispolaR/branch/master/graph/badge.svg" alt="Coverage status"></a></li>
 <li><a href="https://ci.appveyor.com/project/adelmofilho/tenispolaR"><img src="https://ci.appveyor.com/api/projects/status/github/adelmofilho/tenispolaR?branch=master&amp;svg=true" alt="AppVeyor build status"></a></li>
+<li><a href="https://zenodo.org/badge/latestdoi/173999877"><img src="https://zenodo.org/badge/173999877.svg" alt="DOI"></a></li>
 </ul>
 </div>
 </div>
