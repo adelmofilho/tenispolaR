@@ -9,7 +9,8 @@
 ## Background
 
 This package is a tribute to the 35 years of the publication of the collection of books "Os Karas" by the Brazilian author Pedro Bandeira.
-
+  
+  
 ## Installation
 
 You can install this package from CRAN:
@@ -23,16 +24,18 @@ Or you can install the development version from Github with devtools:
 ``` r
 devtools::install_github("adelmofilho/tenispolaR")
 ```
-
+  
+  
 ## Example
 
-This is a basic example which shows ZENIT-POLAR substitution cipher method of encryption
+This is a basic example which shows ZENIT-POLAR substitution cipher method of encryption.
 
-``` r
+```r
 x <- "orro o um psibinhe tisi er kisir: e ivorre der ceseir, e celpsisae der cisopir!"
 
 tenispolaR::encryption(x, key_from = "polar", key_to = "tenis")
 ```
-```r
-[1] "esse e um trabalho para os karas: o avesso dos coroas, o contrario dos caretas!"
+
+```
+## [1] "esse e um trabalho para os karas: o avesso dos coroas, o contrario dos caretas!"
 ```
