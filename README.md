@@ -14,7 +14,7 @@ This package is a tribute to the 35 years of the publication of the collection o
 
 ## Description
 
-Implementation ZENIT-POLAR substitution cipher method of encryption
+Implementation ZENIT-POLAR substitution cipher method of encryption (GC&CS, 1944).
   
   
 ## Installation
