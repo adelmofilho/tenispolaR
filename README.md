@@ -11,6 +11,10 @@
 ## Background
 
 This package is a tribute to the 35 years of the publication of the collection of books "Os Karas" by the Brazilian author Pedro Bandeira.
+
+## Description
+
+Implementation ZENIT-POLAR substitution cipher method of encryption
   
   
 ## Installation
